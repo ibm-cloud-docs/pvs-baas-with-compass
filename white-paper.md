@@ -31,12 +31,12 @@ This white paper provides deep dive on the fully managed secure Backup-as-a-Serv
 
 Key features of {{site.data.keyword.IBM_notm}} Power include:
 
-* Reliability: According to [ITIC 2023 reliability survey](https://itic-corp.com/itic-2023-reliability-survey-ibm-z-results/), it was the 15th consecutive year that the {{site.data.keyword.IBM_notm}} Z and {{site.data.keyword.IBM_notm}} Power Systems have dominated with the best across-the-board uptime reliability ratings among 18 mainstream distributions. {{site.data.keyword.IBM_notm}} Power got 99.9999% or greater availability rating.
-* Security: Protects data and applications with built-in on-chip crypto engines and security features.
-* Performance: Optimized for high-performance computing with advanced multi-threading capabilities.
-* Virtualization: Supports multiple operating systems and workloads on a single machine, enhancing resource utilization.
-* AI and Machine Learning: Suited for AI workloads with in-core Matrix Math Accelerator (MMA) accelerator, large memory capacity, and high parallelism, enabling high throughput and low latency.
-* Sustainability: reduces environmental impact through energy efficiency, workload virtualization, optimized performance, and responsible lifecycle management.
+* **Reliability:** According to [ITIC 2023 reliability survey](https://itic-corp.com/itic-2023-reliability-survey-ibm-z-results/), it was the 15th consecutive year that the {{site.data.keyword.IBM_notm}} Z and {{site.data.keyword.IBM_notm}} Power Systems have dominated with the best across-the-board uptime reliability ratings among 18 mainstream distributions. {{site.data.keyword.IBM_notm}} Power got 99.9999% or greater availability rating.
+* **Security:** Protects data and applications with built-in on-chip crypto engines and security features.
+* **Performance:** Optimized for high-performance computing with advanced multi-threading capabilities.
+* **Virtualization:** Supports multiple operating systems and workloads on a single machine, enhancing resource utilization.
+* **AI and Machine Learning:** Suited for AI workloads with in-core Matrix Math Accelerator (MMA) accelerator, large memory capacity, and high parallelism, enabling high throughput and low latency.
+* **Sustainability:** reduces environmental impact through energy efficiency, workload virtualization, optimized performance, and responsible lifecycle management.
 
 {{site.data.keyword.IBM_notm}} Power systems are widely used in industries such as finance, healthcare, and telecommunications for mission-critical applications.
 
@@ -48,11 +48,11 @@ Key features of {{site.data.keyword.IBM_notm}} Power include:
 
 Besides the benefits of {{site.data.keyword.IBM_notm}} Power, here are some added features of {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}:
 
-* Flexibility and scalability: {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, also known as a logical partition (LPAR), can be provisioned in minutes in {{site.data.keyword.IBM_notm}} data centers around the globe, with scalable resources adjustable based on demand.
-* Cost-effective OPEX model: The pay-as-you-go pricing model allows for flexible billing, helping companies manage costs by only paying for the resources they use. This also provides clients with the flexibility to deploy workloads wherever they are most needed—whether on-premises for greater control and compliance or in the cloud for scalability and agility.
-* Security and reliability: Besides the security features of {{site.data.keyword.IBM_notm}} Power, {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} is Financial Services Validated in {{site.data.keyword.cloud_notm}}.
-* Smooth transition to cloud: {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} has the same architecture in a cloud environment as {{site.data.keyword.IBM_notm}} Power on-premises. It supports AIX, {{site.data.keyword.IBM_notm}} i, Linux and OpenShift, and is certified for SAP and Oracle workloads, allowing a smooth transition for businesses already using {{site.data.keyword.IBM_notm}} Power systems to cloud.
-* Seamless hybrid cloud integration: It enables seamless integration with on-premises Power environments and cloud ecosystems, allowing businesses to expand their IT resources into the cloud without extensive reconfiguration, making it ideal for hybrid cloud strategies.
+* **Flexibility and scalability:** {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, also known as a logical partition (LPAR), can be provisioned in minutes in {{site.data.keyword.IBM_notm}} data centers around the globe, with scalable resources adjustable based on demand.
+* **Cost-effective OPEX model:** The pay-as-you-go pricing model allows for flexible billing, helping companies manage costs by only paying for the resources they use. This also provides clients with the flexibility to deploy workloads wherever they are most needed—whether on-premises for greater control and compliance or in the cloud for scalability and agility.
+* **Security and reliability:** Besides the security features of {{site.data.keyword.IBM_notm}} Power, {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} is Financial Services Validated in {{site.data.keyword.cloud_notm}}.
+* **Smooth transition to cloud:** {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} has the same architecture in a cloud environment as {{site.data.keyword.IBM_notm}} Power on-premises. It supports AIX, {{site.data.keyword.IBM_notm}} i, Linux and OpenShift, and is certified for SAP and Oracle workloads, allowing a smooth transition for businesses already using {{site.data.keyword.IBM_notm}} Power systems to cloud.
+* **Seamless hybrid cloud integration:** It enables seamless integration with on-premises Power environments and cloud ecosystems, allowing businesses to expand their IT resources into the cloud without extensive reconfiguration, making it ideal for hybrid cloud strategies.
 
 
 ### Addressing client needs
@@ -60,7 +60,7 @@ Besides the benefits of {{site.data.keyword.IBM_notm}} Power, here are some adde
 
 #### Need for business continuity
 
-Enterprises are undertaking digital transformation to stay competitive and meet evolving customer demands. Digital era also poses challenges to enterprises. The rise in sophisticated cyberattacks, such as ransomware and phishing, has made it harder for organizations to keep pace with threat actors who continually refine their tactics. Remote work and cloud adoption have expanded the attack surface, increasing vulnerabilities and making it more challenging to secure dispersed networks and devices. Additionally, regulatory requirements around data protection, such as GDPR and CCPA, have introduced legal complexities, as companies now must meet stringent data security and privacy standards or risk significant fines. According to the Cost of Data Breach Report 2024 The global average cost of a data breach jumped to USD 4.88 million from USD 4.45 million in 2023, a 10% spike and the highest since the pandemic.
+Enterprises are undertaking digital transformation to stay competitive and meet evolving customer demands. Digital era also poses challenges to enterprises. The rise in sophisticated cyberattacks, such as ransomware and phishing, has made it harder for organizations to keep pace with threat actors who continually refine their tactics. Remote work and cloud adoption have expanded the attack surface, increasing vulnerabilities and making it more challenging to secure dispersed networks and devices. Additionally, regulatory requirements around data protection, such as GDPR and CCPA, have introduced legal complexities, as companies now must meet stringent data security and privacy standards or risk significant fines. According to the [Cost of Data Breach Report 2024](https://www.ibm.com/reports/data-breach), the global average cost of a data breach jumped to USD 4.88 million from USD 4.45 million in 2023, a 10% spike and the highest since the pandemic.
 
 Enterprises today face a variety of threats beyond cyberattacks, including natural disasters and geopolitical risks. Natural disasters—such as hurricanes, earthquakes, and floods—can disrupt business operations, damage physical assets, and lead to data loss if adequate backup and disaster recovery plans are not in place. Geopolitical threats, such as trade conflicts, sanctions, or political instability, can impact supply chains, restrict market access, and increase regulatory burdens, affecting a company’s ability to operate efficiently in certain regions. These factors create significant business continuity challenges, pushing enterprises to develop comprehensive risk management strategies that include resilient infrastructure, diversified supply chains, and secure, geographically dispersed data backups.
 
@@ -306,7 +306,7 @@ For more complicated environments including customer workloads on-premises or in
 
 {{site.data.keyword.cloud_notm}} deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources. It offers a modular, flexible foundation for businesses to build, deploy, and manage applications securely in the cloud.
 
-{{site.data.keyword.cloud_notm}} offers a few different flavors of deployable architectures that provide an automated deployment method to create an isolated {{site.data.keyword.powerSys_notm}} workspace and connect it with {{site.data.keyword.cloud_notm}} services and public internet. For example, you can create a simple [quick start environment](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-standard-plus-vsi) for quick testing, [extend current environment](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-extension), or set up [SAP HANA environment](/docs/sap-powervs?topic=sap-powervs-automation-solution-overview). For more information on the various {{site.data.keyword.powerSys_notm}} deployable architectures, refer to [Power Systems Virtual Server with VPC landing zone documentation page](/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview).
+{{site.data.keyword.cloud_notm}} offers a few different flavors of deployable architectures that provide an automated deployment method to create an isolated {{site.data.keyword.powerSys_notm}} workspace and connect it with {{site.data.keyword.cloud_notm}} services and public internet. For example, you can create a simple [quick start environment](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-standard-plus-vsi) for quick testing, [extend current environment](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-extension), or set up [SAP HANA environment](/docs/sap-powervs?topic=sap-powervs-automation-solution-overview). For more information on the various {{site.data.keyword.powerSys_notm}} deployable architectures, refer to [Power Systems Virtual Server with VPC landing zone](/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview) documentation page.
 
 Once you decide on the deployable architecture to use, you can deploy the environment using a project in {{site.data.keyword.cloud_notm}}.
 *	To deploy the {{site.data.keyword.powerSys_notm}} environment of your choice, follow the detailed instructions on [Deploy using Projects](/docs/powervs-vpc?topic=powervs-vpc-deploy).
@@ -319,11 +319,11 @@ Once you decide on the deployable architecture to use, you can deploy the enviro
 
 Referring to Compass documentation for optimal, current usage guidance.
 
-•	[Getting Started with PowerVS and Compass Commander](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/)
-•	[Installing Agent Software Support](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/installing-client-software-support/)
-•	[Oracle on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/oracle-powervs-overview/)
-•	[DB2 on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/db2-powervs-overview/)
-•	[SAP HANA on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/sap-hana-powervs-overview/)
+*	[Getting Started with PowerVS and Compass Commander](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/)
+*	[Installing Agent Software Support](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/installing-client-software-support/)
+*	[Oracle on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/oracle-powervs-overview/)
+*	[DB2 on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/db2-powervs-overview/)
+*	[SAP HANA on PowerVS](https://help.cobaltiron.com/getting-started-with-powervs-and-compass-commander/sap-hana-powervs-overview/)
 
 
 ### Unified backup across platforms
@@ -382,3 +382,8 @@ Clients can build applications within {{site.data.keyword.cloud_notm}}'s rich ec
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} has [compliance certifications](/docs/en/power-virtual-server?topic=compliance-certifications) that help you establish and strengthen compliance for a wide range of internationally recognized standards, including SOC, ISO 27017, PCI-DSS, HIPAA, and Financial Services Validated.
 
 Cobalt Iron Compass also provides tremendous security features as partially described in sections 2.2 and 3.3 above.
+
+## Summary
+{: #6-summary}
+
+{{site.data.keyword.cloud_notm}} Partner Cobalt Iron provides an automated backup offering for AIX and Linux instances of {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, accessible from {{site.data.keyword.cloud_notm}} catalog. Secure backup is crucial for enterprises in the digital era. Capabilities and security features from Cobalt Iron Compass protect enterprise against evolving threats while enabling business continuity and maintaining data integrity and compliance.
