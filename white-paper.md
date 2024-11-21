@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -116,7 +116,7 @@ The following figure shows an overview of the data protection and resilience pro
 * Second copies of backup data are automatically made to a replication-paired Compass Vault in another cloud region.
 * On-premises Power workloads can also backup to the Compass Cloud Vaults and are managed through a consolidated user experience.
 
-![Data protection and resilience with Compass](images/Compass-backup.svg){: caption="Data protection and resilience with Compass" caption-side="bottom"}
+![Data protection and resilience with Compass](images/Compass-backup.png){: caption="Data protection and resilience with Compass" caption-side="bottom"}
 {: style="text-align: center;"}
 
 
@@ -125,7 +125,7 @@ This next figure overviews Compass cyber security protections.
 * **Cyber detection and impact analysis** – Compass monitors for dozens of data distortion patterns that might indicate a cyber event.  Suspicious events initiate cyber event impact analysis that gives insights into possibly infected systems and files, and identifies recommended recovery points.
 * **Cyber governance and compliance** – Continual data collection and monitoring of the backup environment keeps Compass customers in an audit-ready posture for backup and also assists with satisfying compliance requirements.
 
-![Compass cyber protection, detection, and analytics](images/Compass-cyber-protection.svg){: caption="Compass cyber protection, detection, and analytics" caption-side="bottom"}
+![Compass cyber protection, detection, and analytics](images/Compass-cyber-protection.png){: caption="Compass cyber protection, detection, and analytics" caption-side="bottom"}
 {: style="text-align: center;"}
 
 
@@ -351,7 +351,7 @@ Secure backup is essential not only for business continuity but also for support
 
 As highlighted in the following figure, the backup images can be used to restore an environment in cloud. As discussed in section 3.1.2, as enterprises start to embrace cloud strategy, they can rapidly provision a dev/test environment in cloud when needed to take advantage of cloud without impacting critical production systems. This would also bring cost advantages to provision the environment with the right sizing only when needed.
 
-![Restore secure backup to a working environment](images/Compass-restore.svg){: caption="Restore secure backup to a working environment" caption-side="bottom"}
+![Restore secure backup to a working environment](images/Compass-restore.png){: caption="Restore secure backup to a working environment" caption-side="bottom"}
 {: style="text-align: center;"}
 
 
@@ -365,7 +365,7 @@ As highlighted in the following figure, the backup images can be used to restore
 
 Clients can build applications within {{site.data.keyword.cloud_notm}}'s rich ecosystem, which offers an extensive array of tools, services, and integrations to accelerate development, enhance functionality, and support scalability. This ecosystem includes a diverse selection of managed services for databases, AI and machine learning, IoT, blockchain, and analytics, allowing clients to create sophisticated, data-driven applications. With built-in DevOps tools and seamless integrations with open-source technologies and third-party platforms, {{site.data.keyword.cloud_notm}} enables rapid application development and deployment. Additionally, robust security and compliance features are embedded across the ecosystem, allowing clients to meet industry standards while focusing on innovation. This rich environment empowers clients to build adaptable, future-ready applications that can evolve with their business needs.
 
-![Sample {{site.data.keyword.cloud_notm}} services](images/ibm-cloud-services.svg){: caption="Sample {{site.data.keyword.cloud_notm}} services" caption-side="bottom"}
+![Sample {{site.data.keyword.cloud_notm}} services](images/ibm-cloud-services.png){: caption="Sample {{site.data.keyword.cloud_notm}} services" caption-side="bottom"}
 {: style="text-align: center;"}
 
 ### Enterprise security and compliance
