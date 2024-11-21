@@ -360,7 +360,7 @@ As highlighted in the following figure, the backup images can be used to restore
 
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} is an IaaS offering, and {{site.data.keyword.IBM_notm}} manages the layers up to the operating system level. Clients can integrate with rich set of services provided by {{site.data.keyword.IBM_notm}} and business partners.
 
-![Power IaaS](images/power-iaas.svg){: caption="Power IaaS" caption-side="bottom"}
+![Power IaaS](images/power-iaas.png){: caption="Power IaaS" caption-side="bottom"}
 {: style="text-align: center;"}
 
 Clients can build applications within {{site.data.keyword.cloud_notm}}'s rich ecosystem, which offers an extensive array of tools, services, and integrations to accelerate development, enhance functionality, and support scalability. This ecosystem includes a diverse selection of managed services for databases, AI and machine learning, IoT, blockchain, and analytics, allowing clients to create sophisticated, data-driven applications. With built-in DevOps tools and seamless integrations with open-source technologies and third-party platforms, {{site.data.keyword.cloud_notm}} enables rapid application development and deployment. Additionally, robust security and compliance features are embedded across the ecosystem, allowing clients to meet industry standards while focusing on innovation. This rich environment empowers clients to build adaptable, future-ready applications that can evolve with their business needs.
